@@ -8,7 +8,7 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-.env
+env
 .idea
 .dist
 .node_modules
