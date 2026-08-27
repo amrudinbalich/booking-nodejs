@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c63a112-8032-429b-bd97-fcd92278555c" name="Changes" comment="" />
+    <list default="true" id="7c63a112-8032-429b-bd97-fcd92278555c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/partials/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/middlewares.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/authController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/auth/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/charset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/charset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/encoding.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/encoding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/lib/mediaType.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/lib/mediaType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.md" beforeDir="false" afterPath="$PROJECT_DIR$/project.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/userRoutes.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -33,61 +59,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001983039853843" />
-      <entry key="MS500" value="1.195412785715868" />
-      <entry key="S2" value="2.890463140643356" />
-      <entry key="S5" value="5.603871795483176" />
-      <entry key="S10" value="7.995965307076795" />
-      <entry key="S30" value="14.720098199127696" />
-      <entry key="S60" value="20.71875256906694" />
-      <entry key="M2" value="28.312215293453637" />
-      <entry key="M5" value="44.787839850653235" />
-      <entry key="M10" value="62.23378480579054" />
-      <entry key="M15" value="74.188070185201" />
-      <entry key="M30" value="107.3064045351115" />
-      <entry key="H1" value="168.4447451996914" />
-      <entry key="H2" value="240.66773534043728" />
-      <entry key="H4" value="303.1601737417656" />
-      <entry key="D1" value="506.4351632090641" />
-      <entry key="W1" value="634.1697037283535" />
+      <entry key="MS100" value="1.0418105399659998" />
+      <entry key="MS500" value="1.579700100942293" />
+      <entry key="S2" value="2.373172178510229" />
+      <entry key="S5" value="3.261174075549342" />
+      <entry key="S10" value="4.4509134145202385" />
+      <entry key="S30" value="6.348796891808005" />
+      <entry key="S60" value="7.598135590736552" />
+      <entry key="M2" value="11.93724819448111" />
+      <entry key="M5" value="28.35826277801442" />
+      <entry key="M10" value="48.75977790467733" />
+      <entry key="M15" value="61.97890656088982" />
+      <entry key="M30" value="82.38395204596782" />
+      <entry key="H1" value="97.40725014316438" />
+      <entry key="H2" value="112.59801089317108" />
+      <entry key="H4" value="140.61865801988816" />
+      <entry key="D1" value="312.55204763608026" />
+      <entry key="W1" value="1137.2410436335983" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.760183042366352E-264" />
-      <entry key="S2" value="1.477086446755708E-66" />
-      <entry key="S5" value="4.653314065355819E-27" />
-      <entry key="S10" value="6.82152040629933E-14" />
-      <entry key="S30" value="4.0859563948385504E-5" />
-      <entry key="S60" value="0.006392148617513945" />
-      <entry key="M2" value="0.0799509138004235" />
-      <entry key="M5" value="0.3640289007673084" />
-      <entry key="M10" value="0.6065857668008392" />
-      <entry key="M15" value="0.7463853047771615" />
-      <entry key="M30" value="1.2359843156002686" />
-      <entry key="H1" value="2.4053172053704754" />
-      <entry key="H2" value="3.924361769370224" />
-      <entry key="H4" value="5.267025959084755" />
-      <entry key="D1" value="9.15008057599655" />
-      <entry key="W1" value="11.477215006190129" />
+      <entry key="MS100" value="1.976937971514906E-38" />
+      <entry key="MS500" value="2.878718974326585E-8" />
+      <entry key="S2" value="0.013483297182138882" />
+      <entry key="S5" value="0.2223191104951035" />
+      <entry key="S10" value="0.6345551150507726" />
+      <entry key="S30" value="1.3476401542734278" />
+      <entry key="S60" value="1.6391853339544489" />
+      <entry key="M2" value="1.809922969256279" />
+      <entry key="M5" value="1.9215047427626974" />
+      <entry key="M10" value="1.9603290009064" />
+      <entry key="M15" value="1.9734576307639142" />
+      <entry key="M30" value="1.9867908362799387" />
+      <entry key="H1" value="2.01201139910677" />
+      <entry key="H2" value="2.3234669143281264" />
+      <entry key="H4" value="3.5498786615038815" />
+      <entry key="D1" value="9.233676256824092" />
+      <entry key="W1" value="21.857015847158596" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9528282239383281" />
-      <entry key="MS500" value="1.1840868610542885" />
-      <entry key="S2" value="2.88348012470544" />
-      <entry key="S5" value="5.598404880350332" />
-      <entry key="S10" value="7.9917866653204035" />
-      <entry key="S30" value="14.715990080109583" />
-      <entry key="S60" value="20.721095537290473" />
-      <entry key="M2" value="28.387870359115265" />
-      <entry key="M5" value="45.14516385962964" />
-      <entry key="M10" value="62.83198489466924" />
-      <entry key="M15" value="74.92574352351292" />
-      <entry key="M30" value="108.53290013414072" />
-      <entry key="H1" value="170.8407842958365" />
-      <entry key="H2" value="244.58497735005975" />
-      <entry key="H4" value="308.42263440808097" />
-      <entry key="D1" value="515.5840289850244" />
-      <entry key="W1" value="645.6467067459088" />
+      <entry key="MS100" value="0.9202165235577479" />
+      <entry key="MS500" value="1.1244125028866865" />
+      <entry key="S2" value="1.9797754731341481" />
+      <entry key="S5" value="3.130037313422322" />
+      <entry key="S10" value="4.786468021809442" />
+      <entry key="S30" value="7.536956248223506" />
+      <entry key="S60" value="9.145613340786683" />
+      <entry key="M2" value="13.695359274235374" />
+      <entry key="M5" value="30.254384509607615" />
+      <entry key="M10" value="50.70552265715405" />
+      <entry key="M15" value="63.94188738182681" />
+      <entry key="M30" value="84.3648533210056" />
+      <entry key="H1" value="99.4160181270867" />
+      <entry key="H2" value="114.91954415115624" />
+      <entry key="H4" value="144.16708171362592" />
+      <entry key="D1" value="321.78502575821364" />
+      <entry key="W1" value="1159.0977407556559" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -109,10 +135,10 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "core/typescript",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/amrudinbalic/Desktop/bookeeper-nodejs",
+    "last_opened_file_path": "/Users/amrudinbalic/Desktop/bookeeper-nodejs/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
@@ -120,17 +146,72 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "npm.dev.executor": "Run",
+    "npm.start.executor": "Run",
+    "npm.test.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.33444443",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.9437.145" />
       </set>
     </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="HTML" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -139,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1787174996665</updated>
-      <workItem from="1787174998854" duration="13608000" />
+      <workItem from="1787174998854" duration="69308000" />
     </task>
     <servers />
   </component>
