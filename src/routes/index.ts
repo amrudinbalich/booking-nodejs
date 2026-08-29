@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import authRouter from './auth/auth.ts';
+// import authRoutes from './auth/auth.ts';
+import apartmentRoutes from './feats/apartments.ts';
 
 const router: Router = Router();
 
@@ -11,6 +12,7 @@ router.get('/', (req, res) => {
     });
 });
 
-router.use(authRouter);
+router.use('/apartments', apartmentRoutes);
+// router.use(authRoutes);
 
 export default router;
